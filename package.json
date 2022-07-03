@@ -1,0 +1,23 @@
+{
+  "name": "algorithms-with-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edocai/Algorithms-with-Tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edocai/Algorithms-with-Tests/issues"
+  },
+  "homepage": "https://github.com/edocai/Algorithms-with-Tests#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
