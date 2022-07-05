@@ -8,7 +8,7 @@ const reverseString = stringArray => {
         start++;
         end--;
     }
+    return stringArray
 };
-
 
 module.exports = reverseString
