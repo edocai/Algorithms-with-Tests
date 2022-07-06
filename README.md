@@ -1,2 +1,2 @@
 # Algorithms with Tests
-Practising my Jest skills by testing data structures and algorithm questions.
+Simultaneously practising my Jest skills and my data structures and algorithm knowledge by testing LeetCode problems.
