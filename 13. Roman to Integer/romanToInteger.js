@@ -16,3 +16,4 @@ const romanToInt = s => {
     return res
 };
 
+module.exports = romanToInt
