@@ -12,3 +12,5 @@ const kWeakestRows = (mat, k) => {
         finalArray.push(o.index)
     return finalArray
 };
+
+module.exports = kWeakestRows
