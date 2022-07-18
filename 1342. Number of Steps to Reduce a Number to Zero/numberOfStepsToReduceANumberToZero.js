@@ -6,3 +6,5 @@ const numberOfSteps = num => {
     }
     return count
 };
+
+module.exports = numberOfSteps
