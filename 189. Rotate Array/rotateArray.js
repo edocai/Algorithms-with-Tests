@@ -54,8 +54,10 @@ const rotate = (nums, k) => {
         // nums[j] = nums.pop()
         // nums[0] = 5               nums = [5, 6, 7, 1, 2, 3, 4]
     }
-
+    return nums
     // nums = [5, 6, 7, 1, 2, 3, 4]
 
     // Time comlexity = O(a + b)
 };
+
+module.exports = rotate
