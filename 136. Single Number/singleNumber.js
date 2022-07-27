@@ -6,3 +6,5 @@ const singleNumber = nums => {
     }
     return result
 };
+
+module.exports = singleNumber
