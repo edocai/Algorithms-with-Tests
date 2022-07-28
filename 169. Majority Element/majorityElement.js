@@ -6,3 +6,5 @@ const majorityElement = nums => {
     }
     return -1;
 };
+
+module.exports = majorityElement
