@@ -17,3 +17,5 @@ const numJewelsInStones = (jewels, stones) => {
     }
     return count
 };
+
+module.exports = numJewelsInStones
