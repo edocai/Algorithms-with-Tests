@@ -22,3 +22,5 @@ const isHappy = n => {
         }
     }
 };
+
+module.exports = isHappy
