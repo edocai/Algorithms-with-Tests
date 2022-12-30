@@ -1,3 +1,8 @@
+function ListNode(val, next) {
+    this.val = (val === undefined ? 0 : val)
+    this.next = (next === undefined ? null : next)
+}
+
 const mergeTwoLists = (list1, list2) => {
     const dummy = new ListNode(2)
     let prev = dummy
@@ -15,6 +20,7 @@ const mergeTwoLists = (list1, list2) => {
 
     if (!list1) prev.next = list2
     if (!list2) prev.next = list1
+    
     return dummy.next
 };
 
