@@ -13,3 +13,5 @@ const mergeAlternately = (word1, word2) => {
 
     return merged
 };
+
+module.exports = mergeAlternately
