@@ -11,3 +11,5 @@ var uniqueOccurrences = function (arr) {
     let count = Object.values(map)
     return count.length === new Set(count).size
 };
+
+module.exports = uniqueOccurrences
