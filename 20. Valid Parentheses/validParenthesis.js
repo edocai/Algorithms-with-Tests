@@ -18,3 +18,5 @@ const isValid = s => {
 
 //Time: O(n)
 //Space: O(n)
+
+module.exports = isValid
