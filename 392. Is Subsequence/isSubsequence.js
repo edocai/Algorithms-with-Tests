@@ -23,3 +23,5 @@ const isSubsequence = function (s, t) {
 
 //Time: O(n)
 //Space: O(1)
+
+module.exports = isSubsequence
