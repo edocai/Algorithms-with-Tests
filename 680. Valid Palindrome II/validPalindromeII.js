@@ -30,3 +30,5 @@ const checkInnerPalindrome = (pointA, pointB, s) => {
 
 //Time: O(n) The main while loop we use can iterate up to N / 2 times, since each iteration represents a pair of characters.
 //Space: O(1)
+
+module.exports = validPalindrome
