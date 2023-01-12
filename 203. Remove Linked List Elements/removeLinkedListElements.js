@@ -1,5 +1,20 @@
 const removeElements = (head, val) => {
+    let dummy = new ListNode(-1)
+    dummy.next = head
+    let prev = dummy
+    let curr = head
 
+    while (curr) {
+        if (curr.val === val) {
+            prev.next = curr.next
+            curr = curr.next
+        } else {
+            prev = curr
+            curr = curr.next
+        }
+    }
+
+    return dummy.next
 };
 
 //Initiate dummy node as ListNode(-1) and set it to be the new head: dummy.next = head.
