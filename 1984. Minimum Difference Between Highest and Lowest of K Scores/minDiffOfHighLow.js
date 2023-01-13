@@ -22,3 +22,5 @@ const minimumDifference = (nums, k) => {
 
 //Time: O(nlogn)
 //Space: O(1)
+
+module.exports = minimumDifference
