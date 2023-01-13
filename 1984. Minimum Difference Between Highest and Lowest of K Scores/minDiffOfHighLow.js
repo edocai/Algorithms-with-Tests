@@ -1,5 +1,16 @@
 const minimumDifference = (nums, k) => {
+    nums.sort((a, b) => a - b)
+    let left = 0
+    let right = k - 1
+    let res = Infinity
 
+    while (right < nums.length) {
+        //res = min(infinity, 90 - 90)
+        res = Math.min(res, nums[right] - nums[left])
+        right++
+        left++
+    }
+    return res
 };
 
 //sliding window
