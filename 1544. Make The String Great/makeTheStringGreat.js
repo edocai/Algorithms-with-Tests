@@ -17,3 +17,5 @@ const makeGood = s => {
 
 //Time: O(n)
 //Space: O(n)
+
+module.exports = makeGood
