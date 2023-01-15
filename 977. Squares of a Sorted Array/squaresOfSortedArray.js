@@ -13,7 +13,27 @@
 //Space Complexity: O(n)
 
 const sortedSquares = nums => {
+    let results = new Array(nums.length).fill(0)
+    let resIdx = nums.length - 1
+    let left = 0
+    let right = nums.length - 1
 
+    while (left <= right) {
+        let leftVal = Math.pow(nums[left], 2)
+        let rightVal = Math.pow(nums[right], 2)
+
+        if (leftVal > rightVal) {
+            results[resIdx] = leftVal
+            left++
+            resIdx--
+        }
+        else {
+            results[resIdx] = rightVal
+            right--
+            resIdx--
+        }
+    }
+    return results
 };
 
 //Two pointer method
