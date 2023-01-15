@@ -48,3 +48,5 @@ const sortedSquares = nums => {
 
 //Time Complexity: O(n)
 //Space Complexity: O(n)
+
+module.exports = sortedSquares
