@@ -32,3 +32,5 @@ Strategy: Traverse
 Time Complexity: O(n*m)
 Space Complexity: O(1)
 */
+
+module.exports = islandPerimeter
