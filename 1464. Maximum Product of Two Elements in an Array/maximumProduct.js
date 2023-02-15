@@ -18,3 +18,5 @@ function maxProduct(nums) {
   //Time: O(nlog(n))
   //Space: O(1)
 };
+
+module.exports = maxProduct
