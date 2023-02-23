@@ -10,7 +10,15 @@ var containsNearbyDuplicate = function (nums, k) {
   //Time: O(n^2)
   //Space: O(1)
 
-
+  let map = {}
+  for (let i = 0; i < nums.length; i++) {
+    if (Math.abs(map[nums[i]] - i) <= k) {
+      return true
+    } else {
+      map[nums[i]] = i
+    }
+  }
+  return false
 };
 
 //hash map
