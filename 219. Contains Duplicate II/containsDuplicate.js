@@ -28,3 +28,5 @@ var containsNearbyDuplicate = function (nums, k) {
 
 //Time: O(n)
 //Space: O(n)
+
+module.exports = containsNearbyDuplicate
