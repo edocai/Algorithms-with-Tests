@@ -24,3 +24,5 @@ const twoSum = (numbers, target) => {
 
 //Time: O(n)
 //Space: O(1)
+
+module.exports = twoSum
