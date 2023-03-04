@@ -1,5 +1,24 @@
 var reverseVowels = function (s) {
+  let map = {
+    'a': true, 'e': true, 'i': true, 'o': true, 'u': true,
+    'A': true, 'E': true, 'I': true, 'O': true, 'U': true
+  }
+  let array = s.split("")
+  let left = 0;
+  let right = array.length - 1
 
+  while (left < right) {
+    while (left < right && !map[array[right]]) {
+      right--
+    }
+    while (left < right && !map[array[left]]) {
+      left++
+    }
+    [array[left], array[right]] = [array[right], array[left]]
+    left++
+    right--
+  }
+  return array.join('')
 };
 
 //Two pointer method
