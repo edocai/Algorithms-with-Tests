@@ -20,3 +20,5 @@ const removeElement = (nums, val) => {
 
 //Time Complexity: O(n)
 //Space Complexity: O(1)
+
+module.exports = removeElement
